@@ -1,7 +1,6 @@
 #!/usr/bin/make -f
-# NOTE: PANDOC=false is a workaround for an upstream silliness.
 %:
-	PANDOC=false dh $@
+	dh $@
 
 # Bodge-arse workaround for lintian complaint:
 #   E: dovecot-fts-xapian: non-empty-dependency_libs-in-la-file usr/lib/dovecot/modules/lib21_fts_xapian_plugin.la

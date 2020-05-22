@@ -2,10 +2,11 @@ Source: fts-xapian
 Section: mail
 Priority: optional
 Maintainer: Trent W. Buck <trentbuck@gmail.com>
-Build-Depends: debhelper (>= 12),
+Build-Depends: debhelper-compat (= 12),
  dovecot-dev,
  libxapian-dev,
- libicu-dev,
+ libicu-dev (>= 60~),
+ libsqlite3-dev,
  pkg-config
 Standards-Version: 4.3.0
 Homepage: https://github.com/grosjo/fts-xapian

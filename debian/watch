@@ -1,3 +1,3 @@
 version=4
 https://github.com/grosjo/fts-xapian/tags \
-    (?:.*?/)?fts-xapian-?(\d[\d.]*)\.tar\.gz debian uupdate
+    (?:.*?/)?(?:fts-xapian-)?(\d[\d.]*)\.tar\.gz debian uupdate
