@@ -1,0 +1,5 @@
+fts-xapian (1.2-0~twb1) unstable; urgency=medium
+
+  * Initial Debianization
+
+ -- Trent W. Buck <trentbuck@gmail.com>  Thu, 15 Aug 2019 22:06:56 +1000

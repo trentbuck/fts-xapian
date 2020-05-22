@@ -1,0 +1,27 @@
+Source: fts-xapian
+Section: mail
+Priority: optional
+Maintainer: Trent W. Buck <trentbuck@gmail.com>
+Build-Depends: debhelper (>= 12),
+ dovecot-dev,
+ libxapian-dev,
+ libicu-dev,
+ pkg-config
+Standards-Version: 4.3.0
+Homepage: https://github.com/grosjo/fts-xapian
+Rules-Requires-Root: no
+
+Package: dovecot-fts-xapian
+Architecture: any
+Provides: fts-xapian
+Enhances: dovecot-imapd, dovecot-pop3d
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: full-text search for dovecot using xapian
+ This project provides a straightforward and simple way to configure full-text
+ search (FTS) for Dovecot, leveraging the efforts by the Xapian.org team.
+ .
+ Compared to dovecot's own FTS plugins, fts-xapian is
+ .
+  * simpler than fts_solr,
+  * more free than fts_dovecot, and
+  * has a more active backend than fts_lucene.

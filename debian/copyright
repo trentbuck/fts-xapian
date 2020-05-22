@@ -1,0 +1,6 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+Files: *
+Copyright: Copyright (c) 2019 Joan Moreau <jom@grosjo.net>
+License: lgpl-2.1
+    FIXME
