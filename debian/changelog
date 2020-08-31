@@ -1,3 +1,9 @@
+fts-xapian (1.3.3-0~twb2) unstable; urgency=medium
+
+  * New upstream stable release.
+
+ -- Trent W. Buck <trentbuck@gmail.com>  Mon, 31 Aug 2020 13:15:49 +1000
+
 fts-xapian (1.3.1+4-g954d79b-0~twb1) unstable; urgency=medium
 
   * New upstream fixes for List-ID and Message-ID.
